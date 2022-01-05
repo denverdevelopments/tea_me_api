@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :customers, only: [:index] do
-        scope module: :merchants do
-          resources :items, only: :index
+        scope module: :customers do
+          resources :subscriptions, only: :index
           end
       end
 
