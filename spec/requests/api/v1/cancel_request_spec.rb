@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "Subscriptions API destroy sub" do
-  it "can destroy an sub" do
+RSpec.describe 'Subscriptions API destroy sub' do
+  it 'can destroy an sub' do
     sub1 = create(:sub)
 
     expect(Book.count).to eq(1)

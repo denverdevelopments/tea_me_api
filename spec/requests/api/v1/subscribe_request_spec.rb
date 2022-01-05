@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "Subscriptions API create sub" do
-  it "can create a new sub" do
+RSpec.describe 'Subscriptions API create sub' do
+  it 'can create a new sub' do
     customer1 = create(:customer)
     sub_params = {
                     name: 'Some Item',
@@ -9,10 +9,10 @@ RSpec.describe "Subscriptions API create sub" do
                     unit_price: 43.12,
                     customer_id: customer1.id
                   }
-    headers = {"CONTENT_TYPE" => "application/json"}
+    headers = { 'CONTENT_TYPE' => 'application/json' }
 
 
-    post "/api/v1/subs", headers: headers, params: JSON.generate(sub: sub_params)
+    post '/api/v1/subscriptions', headers: headers, params: JSON.generate(sub: sub_params)
 
     created_sub = Item.last
 

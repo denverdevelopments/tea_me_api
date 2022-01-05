@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe "Customers API Subscriptions Index" do
-  it "can get all subs of one customer by id" do
+describe 'Customers API Subscriptions Index' do
+  it 'can get all subs of one customer by id' do
     client = create(:customer)
     id = client.id
     create_list(:sub, 4, customer: client)
