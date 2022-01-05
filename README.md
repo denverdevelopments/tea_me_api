@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/73204318/144802612-5f369fee-77d4-440c-9156-d637aa9a29e9.png"><br>
+<img src="https://user-images.githubusercontent.com/73204318/148211548-2d080928-16b5-49cb-a862-ff3b34724c82.png"><br>
 <br>
 
   [Tea Me](https://github.com/Listicle).  Uniting teas and me.
@@ -110,11 +110,7 @@ Kevin Nguyen |
 
 ## Database Schema.v1
 
-<img src="https://user-images.githubusercontent.com/73204318/144801901-07eb9107-23e3-41ef-a846-746aa3db37c1.png">
-
-## Wireframes.v1
-
-<img src="https://user-images.githubusercontent.com/73204318/144403041-da930e67-e43b-4357-99e3-0d2d9f2690e1.png">
+<img src="https://user-images.githubusercontent.com/73204318/148212511-5af95fa1-cf98-40c7-a35c-1754437e6c5b.png">
 
 
 ## API Endpoints
@@ -124,8 +120,6 @@ The following section displays the api endpoints.
 
 #### GraphQL
 - GET /graphql   (query all data)
-
-<img src="https://user-images.githubusercontent.com/73204318/144802260-d1320533-26a8-408d-a4cc-1f5f65970d96.png">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
