@@ -13,9 +13,8 @@ ____ Wrote/Add Tests ____ Implemented New Features ____ Reviewed Codes ____ Fixe
     ` `
 # Testing Changes
 - [ ] No Tests have been changed
-- [ ] Some Tests have been changed
-- [ ] All of the Tests have been changed (Please describe what in the world happened)
-     - What have been changed?
+- [ ] Some/All Tests have been changed (If major, please describe what in the world happened)
+     - What happen/changed?
 - [ ] Add new tests for features/models
 # Checklist:
 - [ ] My code follows the style guidelines of this project
