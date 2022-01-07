@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -208,10 +208,10 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -220,10 +220,10 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          5,
+          5,
+          5,
+          5,
           1,
           1,
           null,
@@ -234,10 +234,11 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          null,
+          2,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -249,14 +250,36 @@
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           null,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/models/tea.rb": {
+        "lines": [
+          1,
           1,
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -273,38 +296,6 @@
           null
         ]
       },
-      "/Users/kevinn/turing/mod_4/tea_me_api/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/kevinn/turing/mod_4/tea_me_api/spec/models/subscription_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/kevinn/turing/mod_4/tea_me_api/app/models/subscription.rb": {
         "lines": [
           1,
@@ -318,28 +309,65 @@
           null
         ]
       },
-      "/Users/kevinn/turing/mod_4/tea_me_api/spec/models/tea_spec.rb": {
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/controllers/api/v1/subscriptions_controller.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
           null,
           null
         ]
       },
-      "/Users/kevinn/turing/mod_4/tea_me_api/app/models/tea.rb": {
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/serializers/subscription_serializer.rb": {
         "lines": [
           1,
           1,
@@ -347,12 +375,29 @@
           null,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/serializers/tea_serializer.rb": {
+        "lines": [
+          1,
           1,
           1,
           null
         ]
+      },
+      "/Users/kevinn/turing/mod_4/tea_me_api/app/serializers/customer_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1641397043
+    "timestamp": 1641564936
   }
 }
