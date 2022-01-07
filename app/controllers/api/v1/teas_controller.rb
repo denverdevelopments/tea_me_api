@@ -4,5 +4,4 @@ class Api::V1::TeasController < ApplicationController
     teas = Tea.all
     render json: TeaSerializer.new(teas)
   end
-
 end

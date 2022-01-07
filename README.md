@@ -5,7 +5,6 @@
 
   [Tea Me](https://github.com/Listicle).  Uniting teas and me.
 
-  [![Contributors][contributors-shield]][contributors-url]
   [![Issues][issues-shield]][issues-url]
   [![Stargazers][stars-shield]][stars-url]
   [![Forks][forks-shield]][forks-url]
@@ -118,14 +117,39 @@ The following section displays the api endpoints.
 
 </div>
 
-#### GraphQL
-- GET /graphql   (query all data)
+#### Teas
+- GET /api/v1/teas
+> Get the list of all teas in the app
+
+#### Customers
+- GET /api/v1/customers
+> Get the list of all customers in the db
+
+- GET /api/v1/customers/:id
+> Get a customer details by id --
+> PATH PARAMETERS - :id (integer) REQUIRED
+
+- GET /api/v1/customers/:id/subscriptions
+> Get the list of all subscriptions of a customer -- PATH PARAMETERS - :id (integer) REQUIRED
+
+#### Subscriptions
+- POST /api/v1/customers/:customer_id/subscriptions
+> Create a subscription -- PATH PARAMETERS - :customer_id (integer) REQUIRED
+
+- PATCH /api/v1/customers/:customer_id/subscriptions/:id
+> Update a section of a subscriptions details by customer id -- PATH PARAMETERS - :customer_id (integer) REQUIRED
+
+- PUT /api/v1/customers/:customer_id/subscriptions/:id
+> Update a subscriptions details by id -- PATH PARAMETERS - :customer_id (integer) REQUIRED
+
+- DELETE /api/v1/customers/:customer_id/subscriptions/:id
+> Remove a subscription by id --
+> PATH PARAMETERS - :id (integer) & :customer_id (integer) REQUIRED
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/pre-kinder/front-end.svg?style=flat-square
-[contributors-url]: https://github.com/pre-kinder/front-end/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/pre-kinder/front-end.svg?style=flat-square
 [forks-url]: https://github.com/pre-kinder/front-end/network/members
 [stars-shield]: https://img.shields.io/github/stars/pre-kinder/front-end.svg?style=flat-square
