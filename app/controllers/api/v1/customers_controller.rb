@@ -13,5 +13,4 @@ class Api::V1::CustomersController < ApplicationController
       render json: CustomerSerializer.new(client)
     end
   end
-
 end

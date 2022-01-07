@@ -144,7 +144,7 @@ The following section displays the api endpoints.
 
 - DELETE /api/v1/customers/:customer_id/subscriptions/:id
 > Remove a subscription by id --
-> PATH PARAMETERS - :id (integer) & :customer_id (integer) REQUIRED
+> PATH PARAMETERS - :customer_id (integer) & :id (integer) REQUIRED
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
